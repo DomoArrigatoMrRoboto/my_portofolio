@@ -408,3 +408,17 @@
     transform: translate(-50%, 16px);
   }
 }
+
+@media (max-width: 768px) {
+  .glass-card {
+    min-height: 60vh; 
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .glass-card {
+    min-height: 45vh;  
+    padding: 1rem;
+  }
+}
