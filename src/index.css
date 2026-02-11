@@ -411,14 +411,40 @@
 
 @media (max-width: 768px) {
   .glass-card {
-    min-height: 60vh; 
+    min-height: 60vh;  
     padding: 1.5rem;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-img {
+    width: 180px;
+    height: 180px;
   }
 }
 
 @media (max-width: 480px) {
   .glass-card {
-    min-height: 45vh;  
+    min-height: 45vh; 
     padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .hero-img {
+    width: 140px;
+    height: 140px;
   }
 }
