@@ -62,8 +62,6 @@ const Hero = () => {
           View Projects
         </a>
       </div>
-     
-      <div className="scroll-indicator"></div>
 
     </section>
   );
